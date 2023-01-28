@@ -7,37 +7,36 @@ const Footer = () => {
             <div>
                 <p>Contact Us</p>
                 <ul>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
+                    <li>educate@gmail.com</li>
+                    <li>+91 7832678644</li>
+                    <li>Chat With Us</li>
                 </ul>
             </div>
             <div>
-                <p>Contact Us</p>
+                <p>Services</p>
                 <ul>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
+                    <li>The Best Thing Will Deliver</li>
+                    <li>Providing A Study Path</li>
+                    <li>Helping Student To Make Right Choice</li>
+                    <li>Join Our Site At 10 Per Month</li>
                 </ul>
             </div>
             <div>
-                <p>Contact Us</p>
+                <p>Courses</p>
                 <ul>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
+                    <li>UPSC</li>
+                    <li>CAT</li>
+                    <li>PROGRAMMER</li>
+                    <li>SSC & RAILWAYS</li>
                 </ul>
             </div>
             <div>
-                <p>Contact Us</p>
+                <p>Roadmaps</p>
                 <ul>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
+                    <li>MBBS</li>
+                    <li>IAS</li>
+                    <li>Web DEVELOPER</li>
+                    <li>SSC & RAILWAYS</li>
                 </ul>
             </div>
         </div>

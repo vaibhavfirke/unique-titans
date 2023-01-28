@@ -1,0 +1,33 @@
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footer_top{
+    display: flex; 
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer_top li{
+    list-style:none;
+}
+.footer_bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+.footer_bottom img{
+    width: 32px;
+    height: 32px;
+}
+.footer_bottom>div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}

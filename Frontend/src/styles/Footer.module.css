@@ -3,6 +3,7 @@
     color: white;
     width: 100%;
     text-transform: capitalize;
+    padding-top: 20px;
 }
 .footer_top{
     display: flex; 

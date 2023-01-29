@@ -10,7 +10,7 @@ import {
   VStack,
   Button,
 } from "@chakra-ui/react";
-export const English = () => {
+export default function English() {
   return (
     <div>
       <Box
@@ -67,7 +67,7 @@ export const English = () => {
             >
               <span style={{ color: "red" }}> paid</span> Rs.999/6mo
             </Box>
-            <Button>buy</Button>
+            <Button><a href="https://www.awalenglish.com/spoken-english-course/?utm_source=google&utm_medium=se_search_generic_english_kwd_phase&utm_campaign=mofu_tsm_search+-+generic_kwd_phrase_se_course" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
             {/* https://www.awalenglish.com/spoken-english-course/?utm_source=google&utm_medium=se_search_generic_english_kwd_phase&utm_campaign=mofu_tsm_search+-+generic_kwd_phrase_se_course */}
           </Box>
         </GridItem>
@@ -111,7 +111,7 @@ export const English = () => {
             >
               Free
             </Box>
-            <Button>https://dashboard.masaischool.com/#/self-learning</Button>
+            <Button><a href="https://dashboard.masaischool.com/#/self-learning" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
           </Box>
         </GridItem>
       </Grid>

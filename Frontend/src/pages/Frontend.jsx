@@ -10,7 +10,7 @@ import {
   VStack,
   Button,
 } from "@chakra-ui/react";
-export const Frontend = () => {
+export  default function Frontend () {
   return (
     <div>
       <Box
@@ -69,7 +69,7 @@ export const Frontend = () => {
             >
               <span style={{ color: "red" }}> paid</span> ₹ 3,5000/After geting 5LPA job
             </Box>
-            <Button>https://in.coursera.org/specializations/ui-ux-design#faq</Button>
+            <Button><a href="https://www.masaischool.com/courses/full-stack-web-dev-part-time/" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
           </Box>
         </GridItem>
         <GridItem w="100%" h="auto" bg="blue.500">
@@ -115,7 +115,7 @@ export const Frontend = () => {
             >
               <span style={{ color: "red" }}> paid</span>  👆
             </Box>
-            <Button>https://www.edclub.com/library/typing-jungle</Button>
+            <Button><a href="https://www.codingninjas.com/careercamp/professionals/?utm_source=google&utm_medium=[search]&utm_campaign=19312337481_144235770843_p_learn%20full%20stack%20web%20development__642136999415_c" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
             {/* https://intellipaat.com/ui-ux-design-course-in-hyderabad/?US&utm_source=google&utm_medium=placement&utm_campaign=p_performance-max_generic_in_secondary_new */}
           </Box>
         </GridItem>
@@ -162,7 +162,7 @@ export const Frontend = () => {
             >
               <span style={{ color: "red" }}> paid</span> Rs 299,000/After geting job  👆
             </Box>
-            <Button>https://www.edclub.com/library/typing-jungle</Button>
+            <Button><a href="https://www.scaler.com/courses/full-stack-developer/" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
             {/* https://intellipaat.com/ui-ux-design-course-in-hyderabad/?US&utm_source=google&utm_medium=placement&utm_campaign=p_performance-max_generic_in_secondary_new */}
           </Box>
         </GridItem>

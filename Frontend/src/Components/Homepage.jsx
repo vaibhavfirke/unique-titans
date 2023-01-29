@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Grid,
@@ -9,7 +9,12 @@ import {
   VStack,
   Button,
 } from "@chakra-ui/react";
+import { useEffect } from "react";
 export const HomePage = () => {
+  const[reload,setReload]=useState(false);
+  useEffect(()=>{
+    setReload(true)
+  },[reload])
   return (
     <Box
       style={{

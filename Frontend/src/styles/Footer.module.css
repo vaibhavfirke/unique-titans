@@ -1,17 +1,21 @@
 .footer{
-    background-color: black;
+    background-color: #5763ee;
     color: white;
     width: 100%;
+    text-transform: capitalize;
+    padding-top: 20px;
 }
 .footer_top{
     display: flex; 
     width: 70%;
     margin: auto;
     justify-content: space-between;
-    text-align: center;
+    /* text-align: center; */
 }
 .footer_top li{
     list-style:none;
+    text-transform: capitalize;
+    font-size: 16px;
 }
 .footer_bottom{
     width: 100%;
@@ -30,4 +34,9 @@
     justify-content: center;
     gap: 10px;
     padding-bottom: 20px;
+}
+.footer_top>div>p{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
 }

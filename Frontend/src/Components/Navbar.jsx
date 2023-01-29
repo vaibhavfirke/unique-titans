@@ -1,6 +1,17 @@
 import Link from "next/link"
+import { useRouter } from "next/router"
+import { useEffect, useState } from "react";
 import styles from '../styles/Navbar.module.css'
 const Navbar = () => {
+  const router=useRouter();
+  const [login,setLogin]=useState(false);
+  const [name,setName]=useState("")
+  useEffect(()=>{
+    if(localStorage.getItem("token")){
+      setLogin(true);
+      setName(localStorage.getItem("name"))
+    }
+  },[])
   return (
     <div className={styles.navbar}>
         <div className={styles.logo}>
@@ -8,22 +19,28 @@ const Navbar = () => {
         </div>
         <ul className={styles.list}>
             <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/"}>Dashboard</Link>
             </li>
             <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/"}>Services</Link>
             </li>
             <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/"}>Courses</Link>
             </li>
             <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/"}>Roadmaps</Link>
             </li>
             <li>
-            <Link href={"/"}>Home</Link>
+            <a onClick={(login)?"":()=>{
+                router.push("/login")
+            }}>{(login)?name:"Login"}</a>
             </li>
             <li>
-            <Link href={"/"}>Home</Link>
+            <a onClick={(login)?()=>{
+                localStorage.clear()
+            }:()=>{
+                router.push("/register")
+            }}>{(login)?"Logout":"Login"}</a>
             </li>
         </ul>
     </div>

@@ -23,9 +23,9 @@
     color:snow;
     font-size: 18px;
 }
-.list>li:nth-child(5),
+/* .list>li:nth-child(5),
 .list>li:nth-child(6){
     background-color: rgb(228, 51, 80);
     padding: 5px 10px;
     border-radius: 5px;
-}
+} */

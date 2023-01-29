@@ -10,7 +10,7 @@ import {
   VStack,
   Button,
 } from "@chakra-ui/react";
-export const Ui = () => {
+export default function Ui(){
   return (
     <div>
       <Box
@@ -67,7 +67,7 @@ export const Ui = () => {
             >
               <span style={{ color: "red" }}> paid</span> ₹ 7,695/3mo
             </Box>
-            <Button>https://in.coursera.org/specializations/ui-ux-design#faq</Button>
+            <Button><a href="https://in.coursera.org/specializations/ui-ux-design#faq" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
           </Box>
         </GridItem>
         <GridItem w="100%" h="auto" bg="blue.500">
@@ -113,7 +113,7 @@ export const Ui = () => {
             >
               <span style={{ color: "red" }}> paid</span> ₹ 4,695/6mo
             </Box>
-            <Button>https://www.edclub.com/library/typing-jungle</Button>
+            <Button><a href="https://intellipaat.com/ui-ux-design-course-in-hyderabad/?US&utm_source=google&utm_medium=placement&utm_campaign=p_performance-max_generic_in_secondary_new" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
             {/* https://intellipaat.com/ui-ux-design-course-in-hyderabad/?US&utm_source=google&utm_medium=placement&utm_campaign=p_performance-max_generic_in_secondary_new */}
           </Box>
         </GridItem>

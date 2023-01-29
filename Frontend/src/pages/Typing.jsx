@@ -10,7 +10,7 @@ import {
   VStack,
   Button,
 } from "@chakra-ui/react";
-export const Typing = () => {
+export default function Typing() {
   return (
     <div>
       <Box
@@ -67,7 +67,7 @@ export const Typing = () => {
             >
               Free
             </Box>
-            <Button>https://www.edclub.com/library/typing-jungle</Button>
+            <Button><a href="https://www.edclub.com/library/typing-jungle" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
           </Box>
         </GridItem>
         <GridItem w="100%" h="auto" bg="blue.500">
@@ -111,7 +111,7 @@ export const Typing = () => {
             >
               <span style={{ color: "red" }}> paid</span> ₹ 1,695/yr
             </Box>
-            <Button>https://www.edclub.com/library/typing-jungle</Button>
+            <Button><a href="https://www.edclub.com/library/typing-jungle" target="_blank" rel="noopener noreferrer">Enrole</a></Button>
           </Box>
         </GridItem>
       </Grid>

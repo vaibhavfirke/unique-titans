@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
         <div className={styles.logo}>
-            <img src="favicon-32x32.png" alt="logo" />
+            <img src="NeXT-Logo-Background-PNG-Image.png" alt="logo" />
         </div>
         <ul className={styles.list}>
             <li>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 localStorage.clear()
             }:()=>{
                 router.push("/register")
-            }}>{(login)?"Logout":"Login"}</a>
+            }}>{(login)?"Logout":"Register"}</a>
             </li>
         </ul>
     </div>
